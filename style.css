@@ -1,0 +1,72 @@
+:root {
+    --sedan-bg: #E28625;
+    --suv-bg: #006971;
+    --luxury-bg: #004140;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    color: white;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    display: grid;
+}
+
+.card {
+    padding: 3rem;
+}
+
+.card.sedan {
+    background-color: var(--sedan-bg);
+}
+
+.card.suv {
+    background-color: var(--suv-bg);
+}
+
+.card.luxury {
+    background-color: var(--luxury-bg);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
