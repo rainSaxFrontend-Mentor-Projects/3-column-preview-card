@@ -135,4 +135,8 @@ article {
     .card.luxury {
         border-radius: 0 .5rem .5rem 0;
     }
+
+    button {
+        margin-top: 5rem;
+    }
 }
