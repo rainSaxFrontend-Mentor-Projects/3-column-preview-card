@@ -106,3 +106,19 @@ article {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 1000px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 920px;
+    }
+}
