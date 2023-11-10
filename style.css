@@ -32,10 +32,40 @@ h6 {
 h1 {
     font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
+    margin: 2rem 0;
 }
 
 p {
     font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 0.9375rem;
+}
+
+button {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 1.5rem;
+    width: 9.125rem;
+    height: 3rem;
+    border-radius: 1.5625rem;
+    border: 0;
+}
+
+button.sedan {
+    color: var(--sedan-bg);
+}
+
+button.suv {
+    color: var(--suv-bg);
+}
+
+button.luxury {
+    color: var(--luxury-bg);
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
 img {
@@ -44,6 +74,8 @@ img {
 
 main {
     display: grid;
+    margin: 5.5rem 1.5rem;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .card {
@@ -60,6 +92,10 @@ main {
 
 .card.luxury {
     background-color: var(--luxury-bg);
+}
+
+article {
+    margin-bottom: 2rem;
 }
 
 .attribution {
