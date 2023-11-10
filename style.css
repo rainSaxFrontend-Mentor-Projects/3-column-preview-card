@@ -84,6 +84,7 @@ main {
 
 .card.sedan {
     background-color: var(--sedan-bg);
+    border-radius: .5rem .5rem 0 0;
 }
 
 .card.suv {
@@ -92,6 +93,7 @@ main {
 
 .card.luxury {
     background-color: var(--luxury-bg);
+    border-radius: 0 0 .5rem .5rem;
 }
 
 article {
@@ -120,5 +122,13 @@ article {
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 920px;
+    }
+
+    .card.sedan {
+        border-radius: .5rem 0 0 .5rem;
+    }
+
+    .card.luxury {
+        border-radius: 0 .5rem .5rem 0;
     }
 }
